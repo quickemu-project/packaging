@@ -27,7 +27,7 @@ Depends: coreutils,
          zsync,
          ${misc:Depends},
          ${shlibs:Depends},
-Description: Script to "manage" Qemu virtual machines.
+Description: Quickemu creates and runs optimised virtual machines.
  Simple script to "manage" Qemu virtual machines. Each virtual machine
  configuration is a few lines long requiring minimal setup. The main objective
  of the project is to enable quick testing of desktop Linux distributions where
