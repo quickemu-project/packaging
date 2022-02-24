@@ -1,3 +1,21 @@
+quickemu (3.13-1~focal1.0) focal; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 24 Feb 2022 23:00:05 +0000
+
+quickemu (3.12-1~jammy1.0) jammy; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@wimpress.io>  Tue, 22 Feb 2022 12:13:16 +0000
+
+quickemu (3.11-1~jammy1.0) jammy; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <martin.wimpress@ubuntu.com>  Wed, 08 Dec 2021 11:01:04 +0000
+
 quickemu (2.3.4-1~jammy1.0) jammy; urgency=medium
 
   * New upstream release.
