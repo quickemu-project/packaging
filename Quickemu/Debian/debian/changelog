@@ -1,3 +1,23 @@
+quickemu (4.3-1~kinetic1.0) kinetic; urgency=medium
+
+  * New upstream release.
+    + https://github.com/quickemu-project/quickemu/releases/tag/4.3
+
+ -- Martin Wimpress <code@wimpress.io>  Thu, 22 Sep 2022 09:22:00 +0100
+
+quickemu (4.2-1~kinetic1.0) kinetic; urgency=medium
+
+  * New upstream release.
+    + https://github.com/quickemu-project/quickemu/releases/tag/4.2
+
+ -- Martin Wimpress <code@wimpress.io>  Wed, 21 Sep 2022 23:34:24 +0100
+
+quickemu (4.1-1~focal1.0) focal; urgency=medium
+
+  * New upstream release.
+
+ -- Martin Wimpress <code@wimpress.io>  Sat, 20 Aug 2022 00:03:33 +0100
+
 quickemu (4.0-1~kinetic1.0) kinetic; urgency=medium
 
   * New upstream release.

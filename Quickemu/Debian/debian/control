@@ -2,7 +2,8 @@ Source: quickemu
 Section: utils
 Priority: optional
 Maintainer: Martin Wimpress <code@wimpress.io>
-Build-Depends: debhelper-compat (= 12),
+Build-Depends:
+ debhelper-compat (= 12),
 Standards-Version: 4.5.1
 Homepage: https://github.com/wimpysworld/quickemu
 Vcs-Browser: https://github.com/wimpysworld/quickemu
@@ -11,22 +12,26 @@ Rules-Requires-Root: no
 
 Package: quickemu
 Architecture: all
-Depends: coreutils,
-         jq,
-         genisoimage,
-         procps,
-         python3-minimal,
-         qemu-system (>= 6.0),
-         spice-client-gtk,
-         swtpm,
-         usbutils,
-         util-linux,
-         wget,
-         xdg-user-dirs,
-         x11-xserver-utils,
-         zsync,
-         ${misc:Depends},
-         ${shlibs:Depends},
+Depends:
+ coreutils,
+ genisoimage,
+ jq,
+ procps,
+ python3-minimal,
+ qemu-system (>= 6.0),
+ socat,
+ spice-client-gtk,
+ swtpm,
+ usbutils,
+ util-linux,
+ wget,
+ x11-xserver-utils,
+ xdg-user-dirs,
+ zsync,
+ ${misc:Depends},
+ ${shlibs:Depends},
+Suggests:
+ virt-viewer,
 Description: Quickemu creates and runs optimised virtual machines.
  Simple script to "manage" Qemu virtual machines. Each virtual machine
  configuration is a few lines long requiring minimal setup. The main objective
