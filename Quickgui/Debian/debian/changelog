@@ -1,0 +1,112 @@
+quickgui (1.2.4-1~jammy1.0) jammy; urgency=high
+
+  * Fixed GLIBC dependency
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Fri, 25 Feb 2022 08:27:45 +0100
+
+quickgui (1.2.3-1~jammy1.0) jammy; urgency=medium
+
+  * Added Spanish translation by @jmmanzano in #58
+  * Added support for aria2c progress indicator.
+  * Fixed the "download finished" notification
+  * Refreshed icons
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Fri, 25 Feb 2022 00:11:46 +0100
+
+quickgui (1.2.2-1~jammy1.0) jammy; urgency=medium
+
+  * Added distro icons in the download manager.
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Sun, 19 Dec 2021 01:59:44 +0100
+
+quickgui (1.2.1-1~jammy1.0) jammy; urgency=medium
+
+  * Fixed: cannot run on machine with GLIBC 2.31
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Fri, 17 Dec 2021 23:42:51 +0100
+
+quickgui (1.2.0-1~jammy1.0) jammy; urgency=medium
+
+  * Add support for more terminal emulators by @marxjohnson in #52
+  * Added Portuguese European (pt_PT) translation by @Ricardo-Simoes in #55
+  * Added a language selector.
+  * Fixed: crash at startup if no user preferences were found.
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Thu, 16 Dec 2021 22:22:41 +0100
+
+quickgui (1.1.5-1~jammy1.0) jammy; urgency=medium
+
+  * Update German translation by @daPhipz in #26
+  * Various i18n improvements/fixes
+  * Fixed a bug where the "Cancel/Close" button on the downloader was not visible with the light theme.
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Sun, 14 Nov 2021 23:37:08 +0100
+
+quickgui (1.1.4-1~jammy1.0) jammy; urgency=medium
+
+  * Add German translation by @daPhipz in #13
+  * Update German translation by @daPhipz in #14
+  * Add a desktop notification on download complete by @diddledani in #16
+  * Small nullability check in manager.dart for null working directory by @diddledani in #17
+  * Preselect the version when only one version is available by @diddledani in #19
+  * Use local imports, not package imports for our own files by @diddledani in #18
+  * Add new action buttons for running VMs by @marxjohnson in #21
+  * Improve i18n to use parameterized strings
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Sun, 14 Nov 2021 12:50:03 +0100
+
+quickgui (1.1.3-1~jammy1.0) jammy; urgency=medium
+
+  * Added a desktop file
+  * Theme mode saved to SharedPreferences
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Wed, 10 Nov 2021 22:13:40 +0100
+
+quickgui (1.1.2-1~jammy1.0) jammy; urgency=medium
+
+  * Fixed the version number in the setting menu
+  * Added a button to switch between dark and light theme
+  * Made the working directory selection clearer
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Tue, 09 Nov 2021 23:05:38 +0100
+
+quickgui (1.1.1-1~jammy1.0) jammy; urgency=medium
+
+  * pubspec.yaml: Changed git url from git:// to https:// by @WillyJimmyDev in #1
+  * Mixin preferences: Refactored shared preferences functions to be generic setters/getters used as a mixin
+  * Added basic checking of .conf files in working directory re #6.
+  * Prevent crash if quickget produces more than 5 columns in CSV
+  * Changed icons and logo
+  * New hamburger menu Dark theme
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Mon, 08 Nov 2021 00:51:25 +0100
+
+quickgui (1.1.0-1~jammy1.0) jammy; urgency=medium
+
+  * The Big Merge©®️™!
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Thu, 28 Oct 2021 08:16:45 +0200
+
+quickgui (1.0.5-1~jammy1.0) jammy; urgency=medium
+
+  * Compatibility with the downloader field
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Wed, 27 Oct 2021 18:14:08 +0200
+
+quickgui (1.0.0-4-1~jammy1.2) jammy; urgency=medium
+
+  * Fixed debian packaging, again
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Fri, 22 Oct 2021 14:03:40 +0200
+
+quickgui (1.0.0-4-1~jammy1.1) jammy; urgency=medium
+
+  * Fixed debian packaging
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Fri, 22 Oct 2021 13:34:05 +0200
+
+quickgui (1.0.0-4-1~jammy1.0) jammy; urgency=medium
+
+  * Initial release
+
+ -- Yannick Mauray <yannick.mauray@gmail.com>  Fri, 22 Oct 2021 00:56:24 +0200
