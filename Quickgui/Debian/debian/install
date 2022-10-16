@@ -1,0 +1,11 @@
+quickgui usr/quickgui
+data/ usr/quickgui
+lib/ usr/quickgui
+resources/quickgui_512.png usr/share/pixmaps
+resources/quickgui_256.png usr/share/pixmaps
+resources/quickgui_128.png usr/share/pixmaps
+resources/quickgui_64.png usr/share/pixmaps
+resources/quickgui_48.png usr/share/pixmaps
+resources/quickgui_32.png usr/share/pixmaps
+resources/quickgui_16.png usr/share/pixmaps
+resources/quickgui.desktop usr/share/applications
