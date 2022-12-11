@@ -1,11 +1,25 @@
-quickemu (4.3-1~kinetic1.0) kinetic; urgency=medium
+quickemu (4.5-1~focal1.0) focal; urgency=medium
+
+  * New upstream release.
+    + https://github.com/quickemu-project/quickemu/releases/tag/4.5
+
+ -- Martin Wimpress <code@wimpress.io>  Sun, 11 Dec 2022 20:54:52 +0000
+
+quickemu (4.4-1~focal1.0) focal; urgency=medium
+
+  * New upstream release.
+    + https://github.com/quickemu-project/quickemu/releases/tag/4.4
+
+ -- Martin Wimpress <code@wimpress.io>  Fri, 21 Oct 2022 08:52:12 +0100
+
+quickemu (4.3-1~focal1.0) focal; urgency=medium
 
   * New upstream release.
     + https://github.com/quickemu-project/quickemu/releases/tag/4.3
 
  -- Martin Wimpress <code@wimpress.io>  Thu, 22 Sep 2022 09:22:00 +0100
 
-quickemu (4.2-1~kinetic1.0) kinetic; urgency=medium
+quickemu (4.2-1~focal1.0) focal; urgency=medium
 
   * New upstream release.
     + https://github.com/quickemu-project/quickemu/releases/tag/4.2
@@ -18,13 +32,13 @@ quickemu (4.1-1~focal1.0) focal; urgency=medium
 
  -- Martin Wimpress <code@wimpress.io>  Sat, 20 Aug 2022 00:03:33 +0100
 
-quickemu (4.0-1~kinetic1.0) kinetic; urgency=medium
+quickemu (4.0-1~focal1.0) focal; urgency=medium
 
   * New upstream release.
 
  -- Martin Wimpress <code@wimpress.io>  Mon, 01 Aug 2022 11:24:48 +0100
 
-quickemu (3.16-1~kinetic1.0) kinetic; urgency=medium
+quickemu (3.16-1~focal1.0) focal; urgency=medium
 
   * New upstream release.
 
@@ -36,7 +50,7 @@ quickemu (3.15-1~focal1.0) focal; urgency=medium
 
  -- Martin Wimpress <code@wimpress.io>  Fri, 22 Apr 2022 09:55:13 +0100
 
-quickemu (3.14-1~jammy1.0) jammy; urgency=medium
+quickemu (3.14-1~focal1.0) focal; urgency=medium
 
   * New Upstream release.
 
@@ -48,13 +62,13 @@ quickemu (3.13-1~focal1.0) focal; urgency=medium
 
  -- Martin Wimpress <code@wimpress.io>  Thu, 24 Feb 2022 23:00:05 +0000
 
-quickemu (3.12-1~jammy1.0) jammy; urgency=medium
+quickemu (3.12-1~focal1.0) focal; urgency=medium
 
   * New upstream release.
 
  -- Martin Wimpress <code@wimpress.io>  Tue, 22 Feb 2022 12:13:16 +0000
 
-quickemu (3.11-1~jammy1.0) jammy; urgency=medium
+quickemu (3.11-1~focal1.0) focal; urgency=medium
 
   * New upstream release.
 
